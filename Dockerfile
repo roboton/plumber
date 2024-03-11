@@ -14,6 +14,7 @@ RUN apt-get update -qq && apt-get install -y --no-install-recommends \
   curl \
   libsodium-dev \
   libxml2-dev \
+  libz-dev \
   && rm -rf /var/lib/apt/lists/*
 
 # `rm` call removes install2.r's cache
